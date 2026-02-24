@@ -1,0 +1,17 @@
+{
+  "item.innovation_and_control.jagan_eye": "Jagan Eye of Infelsia",
+  "tooltip.innovation_and_control.jagan_eye.mode": "Output Mode",
+  "tooltip.innovation_and_control.jagan_eye.current_boost": "Current Boost",
+  "tooltip.innovation_and_control.jagan_eye.usage_complex": "§7[Right-Click] Boost / [Shift+Right-Click] Switch Mode / Reset at MAX§r",
+  "msg.innovation_and_control.jagan_eye.mode_switched": "Output Mode Switched to:",
+  "msg.innovation_and_control.jagan_eye.boost_status": "Current Boost Level:",
+
+  "item.innovation_and_control.ring_of_calamity": "Ring of Calamity",
+  "tooltip.innovation_and_control.ring_of_calamity.1": "§l§6[Forbidden power granted by the Calamity...]§r",
+  "tooltip.innovation_and_control.ring_of_calamity.2": "§d\"Ignored all laws, and rule the peak of sorcery.\"§r",
+  "tooltip.innovation_and_control.ring_of_calamity.ability1": "§b▷ Forbidden Source: Nullifies Mana cost for all spells.§r",
+  "tooltip.innovation_and_control.ring_of_calamity.ability2": "§b▷ Chrono Distortion: Near-zero Cast Time and Cooldown.§r",
+  "tooltip.innovation_and_control.ring_of_calamity.warning": "§c*He who wields this shall shatter the world's balance.*§r",
+
+  "itemGroup.innovation_and_control": "Innovation and Control"
+}

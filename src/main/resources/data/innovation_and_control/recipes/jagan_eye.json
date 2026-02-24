@@ -1,0 +1,26 @@
+{
+  "type": "hyperdaimc:shaped_desk",
+  "pattern": [
+    "  EEEEE  ",
+    " EEEEEEE ",
+    "EEPPPPPEE",
+    "EEPYAYPEE",
+    "EEPYNYPEE",
+    "EEPYAYPEE",
+    "EEPPPPPEE",
+    " EEEEEEE ",
+    "  EEEEE  "
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald_block" },
+    "P": { "item": "minecraft:purpur_block" },
+    "Y": { "item": "minecraft:ender_eye" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "N": { "item": "minecraft:nether_star" }
+  },
+  "result": {
+    "item": "innovation_and_control:jagan_eye",
+    "count": 1
+  },
+  "minecraft": true
+}

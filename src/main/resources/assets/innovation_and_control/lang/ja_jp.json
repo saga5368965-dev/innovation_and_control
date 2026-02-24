@@ -1,0 +1,17 @@
+{
+  "item.innovation_and_control.jagan_eye": "インフェルシアの邪眼",
+  "tooltip.innovation_and_control.jagan_eye.mode": "出力モード",
+  "tooltip.innovation_and_control.jagan_eye.current_boost": "現在のブースト",
+  "tooltip.innovation_and_control.jagan_eye.usage_complex": "§7右クリック:増幅 / Shift+右:モード切替 / 最大時に右クリックでリセット§r",
+  "msg.innovation_and_control.jagan_eye.mode_switched": "出力モード切替:",
+  "msg.innovation_and_control.jagan_eye.boost_status": "現在のブースト:",
+
+  "item.innovation_and_control.ring_of_calamity": "厄災の指輪",
+  "tooltip.innovation_and_control.ring_of_calamity.1": "§l§6【厄災がくれた、無限なる力.....】§r",
+  "tooltip.innovation_and_control.ring_of_calamity.2": "§d「あらゆる理を無視し、魔導の頂を支配する」§r",
+  "tooltip.innovation_and_control.ring_of_calamity.ability1": "§b▷ 禁忌の魔源: 全ての魔法のマナ消費を無効化する§r",
+  "tooltip.innovation_and_control.ring_of_calamity.ability2": "§b▷ 時空の歪曲: 詠唱時間と待機時間を大幅に短縮する§r",
+  "tooltip.innovation_and_control.ring_of_calamity.warning": "§c※この力を手にする者は、世界の理（バランス）を破壊する。§r",
+
+  "itemGroup.innovation_and_control": "Innovation and Control"
+}

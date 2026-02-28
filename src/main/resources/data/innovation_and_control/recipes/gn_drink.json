@@ -4,16 +4,16 @@
     "  EEEEE  ",
     " EGGGGGE ",
     "EGDDDDDEG",
-    "EGDNNDGE",
-    "EGDNPNGE",
-    "EGDNNDGE",
+    "EGDNNNDGE",
+    "EGDNPNDGE",
+    "EGDNNNDGE",
     "EGDDDDDEG",
     " EGGGGGE ",
     "  EEEEE  "
   ],
   "key": {
     "E": { "item": "minecraft:emerald_block" },
-    "G": { "item": "minecraft:glass_pane" },
+    "G": { "item": "minecraft:glass" },
     "D": { "item": "minecraft:diamond_block" },
     "N": { "item": "minecraft:nether_star" },
     "P": { "item": "minecraft:experience_bottle" }

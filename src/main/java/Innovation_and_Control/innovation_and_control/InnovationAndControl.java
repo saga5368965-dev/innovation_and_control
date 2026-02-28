@@ -14,7 +14,8 @@ public class InnovationAndControl {
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public InnovationAndControl() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        IEventBus modEventBus = FMLJavaModLoadingContext
+                .get().getModEventBus();
         ItemRegistry.register(modEventBus);
         CreativeTabRegistry.register(modEventBus);
 

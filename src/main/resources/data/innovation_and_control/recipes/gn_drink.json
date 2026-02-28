@@ -1,0 +1,26 @@
+{
+  "type": "hyperdaimc:shaped_desk",
+  "pattern": [
+    "  EEEEE  ",
+    " EGGGGGE ",
+    "EGDDDDDEG",
+    "EGDNNDGE",
+    "EGDNPNGE",
+    "EGDNNDGE",
+    "EGDDDDDEG",
+    " EGGGGGE ",
+    "  EEEEE  "
+  ],
+  "key": {
+    "E": { "item": "minecraft:emerald_block" },
+    "G": { "item": "minecraft:glass_pane" },
+    "D": { "item": "minecraft:diamond_block" },
+    "N": { "item": "minecraft:nether_star" },
+    "P": { "item": "minecraft:experience_bottle" }
+  },
+  "result": {
+    "item": "innovation_and_control:gn_drink",
+    "count": 1
+  },
+  "minecraft": true
+}

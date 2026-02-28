@@ -20,6 +20,7 @@ public class CreativeTabRegistry {
             .displayItems((parameters, output) -> {
                 output.accept(ItemRegistry.RING_OF_CALAMITY.get());
                 output.accept(ItemRegistry.JAGAN_EYE.get());
+                output.accept(ItemRegistry.GN_DRINK.get());
             }).build());
 
     public static void register(IEventBus eventBus) {

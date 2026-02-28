@@ -12,6 +12,9 @@
   "tooltip.innovation_and_control.ring_of_calamity.ability1": "§b▷ Forbidden Source: Nullifies Mana cost for all spells.§r",
   "tooltip.innovation_and_control.ring_of_calamity.ability2": "§b▷ Chrono Distortion: Near-zero Cast Time and Cooldown.§r",
   "tooltip.innovation_and_control.ring_of_calamity.warning": "§c*He who wields this shall shatter the world's balance.*§r",
-
+  "item.innovation_and_control.gn_drink": "GN Drink",
+  "tooltip.innovation_and_control.gn_drink.1": "§a▷ Consumes high-density GN particles to exceed all Curio limits.§r",
+  "tooltip.innovation_and_control.gn_drink.2": "§7\"Exterminating the slot shortage!\"§r",
+  "msg.innovation_and_control.gn_drink.success": "GN Particles scattered! All Curio slots expanded.",
   "itemGroup.innovation_and_control": "Innovation and Control"
 }

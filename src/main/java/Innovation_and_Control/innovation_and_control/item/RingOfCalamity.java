@@ -19,6 +19,7 @@ import top.theillusivec4.curios.api.type.capability.ICurioItem;
 import com.google.common.collect.Multimap;
 import com.google.common.collect.HashMultimap;
 
+import java.lang.reflect.Field;
 import java.util.List;
 import java.util.UUID;
 
@@ -65,11 +66,28 @@ public class RingOfCalamity extends Item implements ICurioItem {
     }
     @SubscribeEvent
     public void onSpellCast(SpellOnCastEvent event) {
-        if (event.getEntity() != null) {
-            CuriosApi.getCuriosHelper().findFirstCurio(event.getEntity(), this)
-                    .ifPresent(slotResult -> {
-                        event.setManaCost(0);
+        if (event.getEntity() == null) return;
+
+        CuriosApi.getCuriosHelper().findFirstCurio(event.getEntity(), this).ifPresent(ringResult -> {
+            event.setManaCost(0);
+            CuriosApi.getCuriosHelper().findFirstCurio(event.getEntity(), stack -> stack.getItem() instanceof JaganEyeItem)
+                    .ifPresent(jaganResult -> {
+                        int boost = jaganResult.stack().getOrCreateTag().getInt("BoostLevel");
+                        if (boost > 0) {
+                            try {
+                                Field levelField = event.getClass().getDeclaredField("spellLevel");
+                                levelField.setAccessible(true);
+
+                                int currentLevel = event.getSpellLevel();
+                                long targetLevel = (long) currentLevel + boost;
+                                int finalLevel = (int) Math.min(targetLevel, (long) Integer.MAX_VALUE);
+                                levelField.setInt(event, finalLevel);
+
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                        }
                     });
-        }
+        });
     }
 }

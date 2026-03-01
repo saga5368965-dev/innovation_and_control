@@ -1,6 +1,6 @@
-package Innovation_and_Control.innovation_and_control.registry;
+package inovation_and_control.inovation_and_control.registry;
 
-import Innovation_and_Control.innovation_and_control.InnovationAndControl;
+import inovation_and_control.inovation_and_control.InnovationAndControl;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

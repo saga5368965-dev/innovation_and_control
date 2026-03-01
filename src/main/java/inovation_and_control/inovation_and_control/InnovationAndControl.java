@@ -1,7 +1,7 @@
-package Innovation_and_Control.innovation_and_control;
+package inovation_and_control.inovation_and_control;
 
-import Innovation_and_Control.innovation_and_control.registry.ItemRegistry;
-import Innovation_and_Control.innovation_and_control.registry.CreativeTabRegistry;
+import inovation_and_control.inovation_and_control.registry.ItemRegistry;
+import inovation_and_control.inovation_and_control.registry.CreativeTabRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;

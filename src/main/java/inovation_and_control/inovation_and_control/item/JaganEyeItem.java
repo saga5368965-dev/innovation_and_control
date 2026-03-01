@@ -1,4 +1,4 @@
-package Innovation_and_Control.innovation_and_control.item;
+package inovation_and_control.inovation_and_control.item;
 
 import io.redspace.ironsspellbooks.api.events.ModifySpellLevelEvent;
 import net.minecraft.ChatFormatting;

@@ -1,9 +1,9 @@
-package Innovation_and_Control.innovation_and_control.registry;
+package inovation_and_control.inovation_and_control.registry;
 
-import Innovation_and_Control.innovation_and_control.InnovationAndControl;
-import Innovation_and_Control.innovation_and_control.item.GNDrinkItem;
-import Innovation_and_Control.innovation_and_control.item.JaganEyeItem;
-import Innovation_and_Control.innovation_and_control.item.RingOfCalamity;
+import inovation_and_control.inovation_and_control.InnovationAndControl;
+import inovation_and_control.inovation_and_control.item.GNDrinkItem;
+import inovation_and_control.inovation_and_control.item.JaganEyeItem;
+import inovation_and_control.inovation_and_control.item.RingOfCalamity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;

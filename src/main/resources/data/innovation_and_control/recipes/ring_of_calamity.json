@@ -16,7 +16,7 @@
     "R": { "item": "minecraft:redstone_block" },
     "A": { "item": "irons_spellbooks:arcane_ingot" },
     "S": { "item": "irons_spellbooks:dragonskin_spell_book" },
-    "N": { "item": "minecraft:nether_star" }
+    "N": { "item": "hyperdaimc:game_orb" }
   },
   "result": {
     "item": "innovation_and_control:ring_of_calamity",

@@ -15,12 +15,10 @@ import java.util.List;
 import java.util.UUID; // UUIDのインポート
 
 public class GNDrinkItem extends Item {
-    // スロット識別のための固定UUID（これが無いとエラーになる場合があります）
     private static final UUID GN_UUID = UUID.fromString("d0000000-0000-0000-0000-000000000000");
     private static final String MODIFIER_NAME = "gn_particle_expansion";
 
     public GNDrinkItem(Properties properties) {
-        // FoodPropertiesのエラーを解決：正しいビルダーを使用
         super(properties.rarity(Rarity.EPIC).food(new FoodProperties.Builder().alwaysEat().build()));
     }
 

@@ -4,7 +4,8 @@
   "package": "inovation_and_control.inovation_and_control.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "MixinAbstractSpell"
+    "MixinAbstractSpell",
+    "MixinArcaneAnvilMenu"
   ],
   "injectors": {
     "defaultRequire": 1

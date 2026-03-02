@@ -15,8 +15,8 @@
     "E": { "item": "minecraft:emerald_block" },
     "G": { "item": "minecraft:glass" },
     "D": { "item": "minecraft:diamond_block" },
-    "N": { "item": "minecraft:nether_star" },
-    "P": { "item": "minecraft:experience_bottle" }
+    "N": { "item": "minecraft:experience_bottle" },
+    "P": { "item": "hyperdaimc:game_orb" }
   },
   "result": {
     "item": "innovation_and_control:gn_drink",

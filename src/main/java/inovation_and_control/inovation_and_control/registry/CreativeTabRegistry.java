@@ -21,6 +21,7 @@ public class CreativeTabRegistry {
                 output.accept(ItemRegistry.RING_OF_CALAMITY.get());
                 output.accept(ItemRegistry.JAGAN_EYE.get());
                 output.accept(ItemRegistry.GN_DRINK.get());
+                output.accept(ItemRegistry.PRIMITIVE_BOOK.get());
             }).build());
 
     public static void register(IEventBus eventBus) {

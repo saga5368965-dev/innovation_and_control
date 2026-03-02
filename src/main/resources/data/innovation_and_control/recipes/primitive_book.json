@@ -1,0 +1,27 @@
+{
+  "type": "hyperdaimc:shaped_desk",
+  "pattern": [
+    "  DDDDD  ",
+    " DDDDDDD ",
+    "DDRPPPPPD",
+    "DDRYAYRDD",
+    "DDRYGYRDD",
+    "DDRYAYRDD",
+    "DDRPPPPPD",
+    " DDDDDDD ",
+    "  DDDDD  "
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond_block" },
+    "R": { "item": "minecraft:redstone_block" },
+    "P": { "item": "minecraft:purpur_block" },
+    "Y": { "item": "minecraft:ender_eye" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "G": { "item": "hyperdaimc:game_orb" }
+  },
+  "result": {
+    "item": "innovation_and_control:primitive_book",
+    "count": 1
+  },
+  "minecraft": true
+}

@@ -12,9 +12,16 @@
   "tooltip.innovation_and_control.ring_of_calamity.ability1": "§b▷ 禁忌の魔源: 全ての魔法のマナ消費を無効化する§r",
   "tooltip.innovation_and_control.ring_of_calamity.ability2": "§b▷ 時空の歪曲: 詠唱時間と待機時間を大幅に短縮する§r",
   "tooltip.innovation_and_control.ring_of_calamity.warning": "§c※この力を手にする者は、世界の理（バランス）を破壊する。§r",
+
   "item.innovation_and_control.gn_drink": "GNドリンク",
   "tooltip.innovation_and_control.gn_drink.1": "§a▷ 高濃度GN粒子を摂取し、全スロットの許容限界を突破する§r",
   "tooltip.innovation_and_control.gn_drink.2": "§7「駆逐する、スロット不足を！」§r",
   "msg.innovation_and_control.gn_drink.success": "GN粒子、最大散布！全キュリオススロットが拡張されました。",
+
+  "item.innovation_and_control.primitive_book": "プリミティブブック",
+  "tooltip.innovation_and_control.primitive_book.1": "§l§c【古の龍が綴る、終わりの物語】§r",
+  "tooltip.innovation_and_control.primitive_book.2": "§8「その本は、全ての物語（魔法）を食らい尽くす」§r",
+  "tooltip.innovation_and_control.primitive_book.ability": "§6▷ 原始の収束: 50のスロットに無限の魔導を封印する§r",
+
   "itemGroup.innovation_and_control": "Innovation and Control"
 }

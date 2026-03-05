@@ -24,26 +24,25 @@ public abstract class MixinAbstractSpell {
     public abstract CastType getCastType();
     @Inject(method = "canBeCastedBy", at = @At("HEAD"), cancellable = true, remap = false)
     private void calamity$bypassCastChecks(int spellLevel, CastSource castSource, MagicData playerMagicData, Player player, CallbackInfoReturnable<CastResult> cir) {
-        if (CuriosApi.getCuriosHelper().findFirstCurio(player, ItemRegistry.RING_OF_CALAMITY.get()).isPresent()) {
-            cir.setReturnValue(new CastResult(CastResult.Type.SUCCESS));
+        try {
+            if (CuriosApi.getCuriosHelper().findFirstCurio(player, ItemRegistry.RING_OF_CALAMITY.get()).isPresent()) {
+                cir.setReturnValue(new CastResult(CastResult.Type.SUCCESS));
+            }
+        } catch (Exception e) {
         }
     }
     @Inject(method = "getEffectiveCastTime", at = @At("HEAD"), cancellable = true, remap = false)
     private void calamity$forceInstantCast(int spellLevel, @Nullable LivingEntity entity, CallbackInfoReturnable<Integer> cir) {
         if (entity instanceof Player player) {
-            if (CuriosApi.getCuriosHelper().findFirstCurio(player, ItemRegistry.RING_OF_CALAMITY.get()).isPresent()) {
-                // 継続放射型(CONTINUOUS)だけは、長押し判定を維持するために 0 にしない
-                if (this.getCastType() == CastType.CONTINUOUS) {
-                    return;
+            try {
+                if (CuriosApi.getCuriosHelper().findFirstCurio(player, ItemRegistry.RING_OF_CALAMITY.get()).isPresent()) {
+                    if (this.getCastType() == CastType.CONTINUOUS) {
+                        return;
+                    }
+                    cir.setReturnValue(0);
                 }
-
-                // それ以外の呪文（INSTANT, LONG, CHARGE）は即時発動
-                cir.setReturnValue(0);
+            } catch (Exception e) {
             }
         }
-    }
-    @Inject(method = "getSpellCooldown", at = @At("HEAD"), cancellable = true, remap = false)
-    private void calamity$noCooldownDisplay(CallbackInfoReturnable<Integer> cir) {
-        // 必要に応じて処理を追加可能
     }
 }

@@ -19,9 +19,11 @@
   "msg.innovation_and_control.gn_drink.success": "GN粒子、最大散布！全キュリオススロットが拡張されました。",
 
   "item.innovation_and_control.primitive_book": "プリミティブブック",
-  "tooltip.innovation_and_control.primitive_book.1": "§l§c【古の龍が綴る、終わりの物語】§r",
-  "tooltip.innovation_and_control.primitive_book.2": "§8「その本は、全ての物語（魔法）を食らい尽くす」§r",
-  "tooltip.innovation_and_control.primitive_book.ability": "§6▷ 原始の収束: 50のスロットに無限の魔導を封印する§r",
-
+  "item.innovation_and_control.primitive_book.desc_1": "【 古の龍が綴る、終わりの物語 】",
+  "item.innovation_and_control.primitive_book.desc_2": "「その本は、全ての物語を食らい尽くす」",
+  "item.innovation_and_control.primitive_book.ability_1": "▷ 原始の収束: 100のスロットに無限の魔導を封印する",
+  "item.innovation_and_control.primitive_book.ability_2": "▷ 秘術の金床でスクロールと合成することで記録可能",
+  "chat.innovation_and_control.already_learned": "▷ その物語は既に綴られている...",
+  "chat.innovation_and_control.absorb_success": "▷ プリミティブ・バイティング:",
   "itemGroup.innovation_and_control": "Innovation and Control"
 }

@@ -32,7 +32,6 @@ public class PrimitiveBookItem extends SpellBook {
             }
             return InteractionResultHolder.sidedSuccess(mainStack, level.isClientSide());
         }
-
         return super.use(level, player, hand);
     }
 
@@ -43,12 +42,11 @@ public class PrimitiveBookItem extends SpellBook {
         if (container != null && scrollContainer != null && !scrollContainer.isEmpty()) {
             SpellData spellData = scrollContainer.getSpellAtIndex(0);
             if (spellData == null || spellData.getSpell() == null) return;
-
-            // 重複チェック
             for (int j = 0; j < container.getMaxSpellCount(); j++) {
                 SpellData existing = container.getSpellAtIndex(j);
                 if (existing != null && existing.getSpell() != null && existing.getSpell().equals(spellData.getSpell())) {
-                    player.displayClientMessage(Component.literal("▷ その物語は既に綴られている...").withStyle(ChatFormatting.YELLOW), true);
+                    player.displayClientMessage(Component.translatable("chat.innovation_and_control.already_learned")
+                            .withStyle(ChatFormatting.YELLOW), true);
                     return;
                 }
             }
@@ -62,7 +60,7 @@ public class PrimitiveBookItem extends SpellBook {
                     mutable.addSpellAtIndex(spellData.getSpell(), spellData.getLevel(), i, true);
                     ISpellContainer.set(book, mutable.toImmutable());
 
-                    player.displayClientMessage(Component.literal("▷ プリミティブ・バイティング: ")
+                    player.displayClientMessage(Component.translatable("chat.innovation_and_control.absorb_success")
                             .append(spellData.getSpell().getDisplayName(player))
                             .withStyle(ChatFormatting.RED, ChatFormatting.BOLD), true);
 
@@ -75,14 +73,17 @@ public class PrimitiveBookItem extends SpellBook {
 
     @Override
     public void appendHoverText(ItemStack itemStack, Level level, List<Component> lines, TooltipFlag flag) {
-        lines.add(Component.literal("【 古の龍が綴る、終わりの物語 】").withStyle(ChatFormatting.RED, ChatFormatting.BOLD));
-        lines.add(Component.literal("「その本は、全ての物語を食らい尽くす」").withStyle(ChatFormatting.DARK_PURPLE, ChatFormatting.ITALIC));
+        lines.add(Component.translatable("item.innovation_and_control.primitive_book.desc_1")
+                .withStyle(ChatFormatting.RED, ChatFormatting.BOLD));
+        lines.add(Component.translatable("item.innovation_and_control.primitive_book.desc_2")
+                .withStyle(ChatFormatting.DARK_PURPLE, ChatFormatting.ITALIC));
 
         lines.add(Component.literal(" "));
 
-        // 追加：金床での合成に関する説明
-        lines.add(Component.literal("▷ 原始の収束: 100のスロットに無限の魔導を封印する").withStyle(ChatFormatting.GOLD));
-        lines.add(Component.literal("▷ 秘術の金床でスクロールと合成することで記録可能").withStyle(ChatFormatting.AQUA));
+        lines.add(Component.translatable("item.innovation_and_control.primitive_book.ability_1")
+                .withStyle(ChatFormatting.GOLD));
+        lines.add(Component.translatable("item.innovation_and_control.primitive_book.ability_2")
+                .withStyle(ChatFormatting.AQUA));
 
         super.appendHoverText(itemStack, level, lines, flag);
     }

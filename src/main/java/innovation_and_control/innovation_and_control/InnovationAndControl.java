@@ -19,5 +19,5 @@ public class InnovationAndControl {
         ItemRegistry.register(modEventBus);
         CreativeTabRegistry.register(modEventBus);
 
-        }
     }
+}

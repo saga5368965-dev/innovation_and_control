@@ -18,12 +18,13 @@
   "tooltip.innovation_and_control.gn_drink.2": "§7「駆逐する、スロット不足を！」§r",
   "msg.innovation_and_control.gn_drink.success": "GN粒子、最大散布！全キュリオススロットが拡張されました。",
 
-  "item.innovation_and_control.primitive_book": "プリミティブブック",
-  "item.innovation_and_control.primitive_book.desc_1": "【 古の龍が綴る、終わりの物語 】",
-  "item.innovation_and_control.primitive_book.desc_2": "「その本は、全ての物語を食らい尽くす」",
-  "item.innovation_and_control.primitive_book.ability_1": "▷ 原始の収束: 100のスロットに無限の魔導を封印する",
-  "item.innovation_and_control.primitive_book.ability_2": "▷ 秘術の金床でスクロールと合成することで記録可能",
-  "chat.innovation_and_control.already_learned": "▷ その物語は既に綴られている...",
+   "item.innovation_and_control.primitive_book": "プリミティブブック",
+   "item.innovation_and_control.primitive_book.desc_1": "【 古の龍が綴る、終わりの物語 】",
+   "item.innovation_and_control.primitive_book.desc_2": "「その本は、全ての物語を食らい尽くす」",
+   "item.innovation_and_control.primitive_book.ability_sync": "▷ 原始の捕食: Curiosスロットにある他の魔導書の内容を喰らい、模倣する",
+   "item.innovation_and_control.primitive_book.spell_count": "§8【性能】統合済みスペル数: §a%s / %s§r",
+   "item.innovation_and_control.primitive_book.more_spells": "§7... 他 %s 個§r",
+   "chat.innovation_and_control.already_learned": "▷ その物語は既に綴られている...",
   "chat.innovation_and_control.absorb_success": "▷ プリミティブ・バイティング:",
   "itemGroup.innovation_and_control": "Innovation and Control"
 }

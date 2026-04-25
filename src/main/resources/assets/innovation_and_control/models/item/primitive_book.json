@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "innovation_and_control:item/primitive_book"
-  }
-}

@@ -18,11 +18,12 @@
   "tooltip.innovation_and_control.gn_drink.2": "§7\"Exterminating... the slot shortage!\"§r",
   "msg.innovation_and_control.gn_drink.success": "GN Particles, max output! All Curios slots have been expanded.",
 
-  "item.innovation_and_control.primitive_book": "Primitive Book",
-  "item.innovation_and_control.primitive_book.desc_1": "【 Story of the End, Written by the Ancient Dragon 】",
-  "item.innovation_and_control.primitive_book.desc_2": "\"This book shall consume every story ever told.\"",
-  "item.innovation_and_control.primitive_book.ability_1": "▷ Primitive Convergence: Seal infinite magic into 100 slots.",
-  "item.innovation_and_control.primitive_book.ability_2": "▷ Can be reinforced with scrolls at an Arcane Anvil.",
+   "item.innovation_and_control.primitive_book": "Primitive Book",
+   "item.innovation_and_control.primitive_book.desc_1": "【 Story of the End, Written by the Ancient Dragon 】",
+   "item.innovation_and_control.primitive_book.desc_2": "\"This book shall consume every story ever told.\"",
+   "item.innovation_and_control.primitive_book.ability_sync": "▷ Primitive Consumption: Devours and mimics spells from other Spellbooks in Curios slots.",
+  "item.innovation_and_control.primitive_book.spell_count": "§8[Performance] Integrated Spells: §a%s / %s§r",
+  "item.innovation_and_control.primitive_book.more_spells": "§7... and %s more§r",
   "chat.innovation_and_control.already_learned": "▷ That story has already been chronicled...",
   "chat.innovation_and_control.absorb_success": "▷ Primitive Biting: ",
   "itemGroup.innovation_and_control": "Innovation and Control"
